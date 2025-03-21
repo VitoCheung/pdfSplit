@@ -7,7 +7,7 @@ import os
 from PyPDF2 import PdfReader, PdfWriter
 import time
 
-INPUT_FILE = "数据挖掘与应用（SAS）（张俊妮）.pdf"   # 待分割文件
+INPUT_FILE = "test.pdf"   # 待分割文件
 OUTOUT_FILE_NAME = "dataminingsplit"  # 分割后的文件名
 SUBFILE_PAGE_NUM = 70  # 分割页数
 
